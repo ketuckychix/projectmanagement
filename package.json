@@ -14,18 +14,18 @@
     "graphql": "^15.4.0",
     "interactjs": "^1.10.0",
     "moment": "^2.29.1",
-    "node-sass": "^4.14.1",
     "randomcolor": "^0.6.2",
     "react": "^16.1.4",
     "react-calendar-timeline": "^0.27.0",
     "react-dom": "^16.1.4",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.69.4",
     "subscriptions-transport-ws": "^0.9.18",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "export PORT=3006 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
